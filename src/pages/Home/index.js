@@ -1,8 +1,13 @@
-import React from 'react'
+import { BarChart } from "./components/BarChart"
+
 
 const Home = () => {
+
   return (
-    <div>Home</div>
+    <div>
+      <BarChart title={'6666'} />
+      <BarChart title={'8888'} />
+    </div>
   )
 }
 
